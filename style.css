@@ -635,16 +635,25 @@ nav img {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 15px;
     margin: 80px 0 0 150px;
 }
 
 .school_text {
+    max-width: 320px;
+}
+
+.school_text_image {
     width: 320px;
+    height: 195px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .school_text img {
     width: 100%;
-    height: 225.63px;
+    height:100%;
+    object-fit: cover;
 }
 
 .school_text:nth-child(3) {
@@ -653,11 +662,11 @@ nav img {
 
 .school_text:last-child {
     opacity: 0.3;
-    width: 300px;
+    /* max-width: 320px; */
 }
 
 .school_text:last-child img{
-    width: 300px;
+    
 }
 
 .school_text h1 {
@@ -722,6 +731,7 @@ nav img {
     align-items: center;
     justify-content: space-between;
     margin: 50px 0 0 160px;
+    gap: 15px;
 }
 
 .vakansi_inform {
@@ -731,6 +741,9 @@ nav img {
 .vakansi_inform_image {
     width: 320px;
     height: 182px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
 }
 
 .vakansi_inform_image img {
@@ -756,8 +769,6 @@ nav img {
 }
 
 .vakansi_inform img {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
     width: 100%;
 }
 
