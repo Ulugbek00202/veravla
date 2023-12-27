@@ -635,15 +635,15 @@ nav img {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 80px 0 0 250px;
+    margin: 80px 0 0 150px;
 }
 
 .school_text {
-    width: 387px;
+    width: 320px;
 }
 
 .school_text img {
-    width: 370px;
+    width: 100%;
     height: 225.63px;
 }
 
@@ -721,25 +721,38 @@ nav img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 0 0 200px;
+    margin: 50px 0 0 160px;
 }
 
 .vakansi_inform {
-    width: 387px;
+    width: 320px;
+}
+
+.vakansi_inform_image {
+    width: 320px;
+    height: 182px;
+}
+
+.vakansi_inform_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.vakansi_inform:nth-child(3) img {
+    opacity: 0.6;
 }
 
 .vakansi_inform:last-child {
-    width: 300px;
+    width: 320px;
 }
 
 .vakansi_inform:last-child img {
     width: 100%;
-    height: 236px;
-    margin-top: 10px;
+    opacity: 0.3;
 }
 
 .vakansi_inform:last-child p {
-    width: 100px;
+    /* width: 100px; */
 }
 
 .vakansi_inform img {
