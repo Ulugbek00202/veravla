@@ -1,0 +1,933 @@
+@import url('./fonts/font.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    min-height: 100vh;
+    background-image: url("./images/Фон.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'AvenirNextCyr-Bold';
+    border-bottom: 2px solid rgba(2, 35, 53, 1);
+    padding: 0 0 50px 0; 
+    position: relative;
+
+
+}
+
+.header_logo {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'AvenirNextCyr-Bold';
+    font-size: 18px;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+nav img {
+    margin-right: 10px;
+}
+
+.headphone {
+    position: absolute;
+}
+
+.headPhoneItem {
+    position: absolute;
+    left: 0;
+}
+
+.headphone a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(3, 225, 255, 0.66);
+    box-shadow: 0px 7px 20px 3px rgba(0, 224, 255, 1);
+    border-radius: 50%;
+}
+
+.head_phone_text h1 {
+    position: absolute;
+    width: 281px;
+    rotate: 270deg;
+    font-family: 'AvenirNextCyr-Bold';
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: rgba(0, 224, 255, 1);
+    left: -90px;
+    top: 210px;
+}
+
+.edu {
+    width: 806px;
+    /* margin-left: 180px; */
+    font-family: 'Avenir Next Cyr';
+    font-weight: 400;
+}
+
+.edu p {
+    font-family: 'AvenirNextCyr-Bold';
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(116, 125, 129, 1);
+    margin-bottom: 10px;
+}
+
+.edu h1 {
+    font-size: 108px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    color: linear-gradient(180deg, #FFFFFF 31.75%, #1A3031 100%);
+    font-family: 'Avenir Next Cyr';
+}
+
+.edu h3 {
+    font-size: 18px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+    width: 500px;
+}
+
+.edu_item {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.edu_item_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 71px;
+    height: 71px;
+    background-color: rgba(0, 224, 255, 0.11);
+    border-radius: 12px;
+    border: 1px solid rgba(73, 185, 232, 1);
+}
+
+.edu_item_text {
+    margin-left: 50px;
+    width: 450px;   
+}
+
+.edu_item_text h1, .edu_item_text p {
+    font-size: 18px;
+    font-weight: 750;
+    color: rgba(255, 255, 255, 1);
+}
+
+.edu_item_text p {
+    color: rgba(74, 188, 236, 1);
+    font-weight: 400;
+}
+
+.edu button {
+    margin-top: 80px;
+    width: 479px;
+    height: 60px;
+    background-color: rgba(3, 225, 255, 0.66);
+    box-shadow: 0px 7px 20px -7px rgba(0, 224, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 8px;
+    font-weight: 750;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+.main {
+    font-family: 'Avenir Next Cyr';
+}
+
+
+.prichina1 {
+    padding: 50px 0;
+    background: #03202c;
+
+}
+
+.prichina1 h1 {
+    width: 476px;
+    font-size: 54px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.prichina1 span {
+    color: rgba(74, 188, 236, 1);
+}
+
+.prichina_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.prichina_item {
+    margin-top: 58px;
+    width: 275px;
+    height: 212px;
+    border: 2px solid;
+    border-image-source: radial-gradient(47.54% 111.62% at 50% 50%, #49B9E8 0%, rgba(31, 77, 96, 0.43) 100%);
+    border-radius: 20px;
+    background-color: rgba(11, 94, 105, 0.632);
+}
+
+.prichina_item img {
+    margin: 36px 0 0 42px;
+}
+
+.prichina_item p {
+    width: 206px;
+    margin: 15px 0 0 42px;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 18.38px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.prichina_group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 0 0 ;
+}
+
+.prichina_group_item {
+    width: 370px;
+    height: 217px;
+    border: 2px solid;
+    border-image-source: radial-gradient(47.54% 111.62% at 50% 50%, #49B9E8 0%, rgba(31, 77, 96, 0.43) 100%);
+    border-radius: 20px;
+    background-color: rgba(11, 94, 105, 0.632);
+}
+
+.prichina_group_item img {
+    margin: 36px 0 0 42px;
+}
+
+.prichina_group_item P {
+    width: 280px;
+    margin: 15px 0 0 42px;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 18.38px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.intellekt2 {
+    background-color: #04373f;
+    padding: 50px 0;
+    font-family: 'Avenir Next Cyr';
+}
+
+.intellekt_title {
+    width: 650px;
+    font-weight: 450;
+    font-family: 'Avenir Next Cyr';
+    font-size: 54px;
+    color: rgba(74, 188, 236, 1);
+}
+
+.intellekt_title span {
+    color: rgba(255, 255, 255, 1);
+}
+
+.intellekt_text {
+    min-width: 692px;
+    margin-top: 50px;
+}
+
+.intellekt_text_image {
+    display: flex;
+    align-items: center;
+    padding: 20px 24px;
+    background: linear-gradient(90deg, rgba(31, 63, 77, 0.54) 0%, rgba(31, 75, 94, 0) 100%);
+    margin-bottom: 5px;    
+}
+
+.intellekt_text_image:last-child {
+    margin-bottom: 0;
+}
+
+.intellekt_text_image img {
+    margin-right: 10px;
+}
+
+.intellekt_text h1 {
+    font-weight: 450;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.intellekt_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 479px;
+    height: 60px;
+    border-radius: 9px;
+    border: none;
+    margin-top: 60px;
+    box-shadow: 0px 7px 20px -7px rgba(0, 224, 255, 1);
+    background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13CDC2 100%);
+    font-size: 12px;
+    font-weight: 750;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 4px;
+}
+
+
+
+
+
+
+.vajno3 {
+    background-color: rgb(8,41,47);
+    padding: 50px 0;
+}
+
+.vajno_title {
+    font-size: 54px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.vajno_title span {
+    color: rgba(74, 188, 236, 1);
+}
+
+.vajno_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+}
+
+.vajno_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 568px;
+}
+
+.vajno_text p {
+    width: 263px;
+    font-size: 16px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+}
+
+
+.vajno_item2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0 0 0;
+}
+
+.vajno_item2_text {
+    display: flex;
+    align-items: center;
+}
+
+.vajno_item2_text p {
+    width: 236px;
+    font-size: 16px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+    line-height: 23px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+.nash_kurs4 {
+    padding: 50px 0;
+    background-color: rgb(3,56,64);
+}
+
+.nash_kurs_title {
+    width: 700px;
+    font-size: 54px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.nash_kurs_title span {
+    color: rgba(74, 188, 236, 1);
+}
+
+.nash_kurs_text {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 530px;
+    margin: 40px 0 0 0;
+}
+
+.nash_kurs_text p {
+    font-size: 16px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+.uznayu5 {
+    background-color: rgb(3,32,44);
+    padding: 50px 0;
+}
+
+.uznayu_title {
+
+}
+
+.uznayu_title h1 {
+    font-size: 54px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.uznayu_title span {
+    color: rgba(74, 188, 236, 1);
+}
+
+.uznayu_title p {
+    margin: 20px 0 0 0;
+    font-size: 18px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.uznayu_text {
+    margin: 40px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(7,46,60);
+    padding: 15px 17px;
+    border-radius: 10px;
+}
+
+.uznayu_ietm {
+    display: flex;
+    align-items: center;
+}
+
+.uznayu_ietm h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    font-size: 13px;
+    font-weight: 450;
+    color: rgba(8, 38, 43, 1);
+    background-color: rgb(0,224,255);
+    margin-left: 10px;
+}
+
+.uznayu_text p {
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(180deg, #00E0FF 0%, #4A8BEC 100%);
+    box-shadow: 0px 4px 8px 0px rgba(0, 224, 255, 0.56);
+    border-radius: 50%;
+}
+
+.uznayu_text h1 {
+    font-size: 20px;
+    font-weight: 750;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 30px;
+}
+
+.uznayu_text h1 span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: rgba(8, 177, 185, 1);
+}
+
+.uznayu_button {
+    width: 32px;
+    height: 32px;
+    background-color: rgb(7,66,85);
+    border: none;
+    border-radius: 6px;
+}
+
+.uznayu_itemss {
+    margin-top: 50px;
+}
+
+.uznayu_informations {
+    display: flex;
+    margin: 40px 0 0 0;
+}
+
+.uznayu_informations p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: rgba(74, 188, 236, 1);
+    color: rgba(8, 38, 43, 1);
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.uznayu_information_text {
+    margin-left: 20px;
+}
+
+.uznayu_information_text h1 {
+    font-size: 16px;
+    font-weight: 750;
+    color: rgba(74, 188, 236, 1);
+}
+
+.uznayu_information_text h2 {
+    font-size: 16px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 15px;
+}
+
+
+
+
+.avtor6 {
+    position: relative;
+    padding: 80px 0;
+    background-color: rgb(3,56,63);
+}
+
+.avtor6 h1 {
+    font-size: 54px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.avtor_text {
+    width: 500px;
+    margin-top: 60px;
+}
+
+.avtor_text p {
+    width: 488px;
+    font-size: 15px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+    line-height: 23px;
+}
+
+.avtor_text p:nth-child(2) {
+    margin-top: 30px;
+}
+
+.avtor_text p:nth-child(3) {
+    margin-top: 30px;
+}
+
+.avtor_text p:nth-child(4) {
+    margin-top: 30px;
+}
+
+.avtor_text p:nth-child(5) {
+    margin-top: 30px;
+}
+
+.avtor_imagess {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.avtor_image {
+    position: absolute;
+    right: 450px;
+    top: 30px;
+}
+
+
+
+
+
+
+
+.school7 {
+    padding: 50px 0;
+    background-color: rgb(7,38,46);
+}
+
+.school_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.school_title h1 {
+    font-size: 54px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.school_button {
+    width: 213px;
+    height: 60px;
+    border-radius: 9px;
+    border: 1px solid rgb(14, 154, 176);
+    background-color: rgb(8,40,47);
+    font-size: 12px;
+    font-weight: 750;
+    color: rgba(74, 188, 236, 1);
+    letter-spacing: 3px;
+}
+
+.school_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px 0 0 250px;
+}
+
+.school_text {
+    width: 387px;
+}
+
+.school_text img {
+    width: 370px;
+    height: 225.63px;
+}
+
+.school_text:nth-child(3) {
+    opacity: 0.8;
+}
+
+.school_text:last-child {
+    opacity: 0.3;
+    width: 300px;
+}
+
+.school_text:last-child img{
+    width: 300px;
+}
+
+.school_text h1 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 750;
+    color: rgba(255, 255, 255, 1);
+}
+
+.school_text p {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.school_text a {
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 450;
+    color: rgba(74, 188, 236, 1);
+}
+
+
+
+
+
+
+
+.vakansi {
+    padding: 50px 0;
+    background-color: rgb(4,55,64);
+}
+
+.vakansi_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vakansi_title h1 {
+    font-size: 54px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.vakansi_button {
+    width: 213px;
+    height: 60px;
+    border-radius: 9px;
+    border: 1px solid rgb(14, 154, 176);
+    background-color: rgb(8,40,47);
+    font-size: 12px;
+    font-weight: 750;
+    color: rgba(74, 188, 236, 1);
+    letter-spacing: 3px;
+}
+
+.vakansi_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0 0 200px;
+}
+
+.vakansi_inform {
+    width: 387px;
+}
+
+.vakansi_inform:last-child {
+    width: 300px;
+}
+
+.vakansi_inform:last-child img {
+    width: 100%;
+    height: 236px;
+    margin-top: 10px;
+}
+
+.vakansi_inform:last-child p {
+    width: 100px;
+}
+
+.vakansi_inform img {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+
+.vakansi_inform h1 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 750;
+    color: rgba(255, 255, 255, 1);
+}
+
+.vakansi_inform_text, .vakansi_inform_text3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.vakansi_inform_text h3 {
+    font-size: 15px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.vakansi_inform_text p {
+    width: 200px;
+    border-bottom: dashed 1px rgba(255, 255, 255, 1);
+    margin-top: 10px;
+}
+
+.vakansi_inform_text h2 {
+    font-size: 15px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+.vakansi_inform_text3 {
+    opacity: 0.3;
+}
+
+
+.vakansi_inform_text3 h3 {
+    font-size: 15px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.vakansi_inform_text3 p {
+    width: 250px;
+    border-bottom: dashed 1px rgba(255, 255, 255, 1);
+    margin-top: 10px;
+}
+
+.vakansi_inform_text3 h2 {
+    font-size: 15px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.vakansi_inform a {
+    font-size: 12px;
+    font-weight: 450;
+    color: rgba(74, 188, 236, 1);
+    margin-top: 10px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    padding: 50px 0;
+    background-color: rgb(3,47,59);
+    font-family: 'Avenir Next Cyr';
+}
+
+.footer_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_gmail {
+
+}
+
+.footer_email {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_email a {
+    display: block;
+    font-size: 18px;
+    font-weight: 450;
+    color: rgba(74, 188, 236, 1);
+    margin-left: 10px;
+}
+
+.footer_email img:nth-child(3) {
+    margin-left: 35px;
+}
+
+.footer_email p {
+    font-size: 18px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer_socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.footer_socialmedia p{
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(116, 125, 129, 1);
+    letter-spacing: 2px;
+}
+
+
+.footer_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+}
+
+
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.foot p {
+    width: 650px;
+    border: 1px solid rgba(0, 224, 255, 0.2);
+}
+
+.foot h3 {
+    font-size: 14px;
+    font-weight: 450;
+    color: rgba(255, 255, 255, 1);
+}
+
+.end_end {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.end {
+    padding-top: 30px;
+}
+
+.end_end h1 {
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(116, 125, 129, 1);
+    letter-spacing: 5px;
+    margin-right: 10px;
+}
